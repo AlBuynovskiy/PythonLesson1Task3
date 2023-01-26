@@ -1,6 +1,6 @@
-a = 20
-b = 21
-c = 22
+a = int(input())
+b = int(input())
+c = int(input())
 if (a + b + c) % 2 == 0:
     res = (a + b + c) // 2
 else:
